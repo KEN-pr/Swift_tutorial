@@ -21,9 +21,9 @@ struct MapView: View {
     }
     
     private func setRegion(_ coordinate: CLLocationCoordinate2D) {
-        //let span = MKCoordinateSpan(latitudeDelta: 0.2, longitudeDelta: 0.2)
         region = MKCoordinateRegion(
-            center: coordinate, span: <#MKCoordinateSpan#>(latitudeDelta: 0.2, longtitudeDelta: 0.2)
+            center: coordinate,
+            span: <#MKCoordinateSpan#>(latitudeDelta: 0.2, longitudeDelta: 0.2)
         )
     }
 }
